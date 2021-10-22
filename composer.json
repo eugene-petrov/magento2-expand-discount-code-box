@@ -1,0 +1,21 @@
+{
+    "name": "eugene-petrov/magento2-expand-discount-code-box",
+    "description": "Magento 2 Expand discount code box on the checkout page",
+    "license": [
+        "proprietary",
+        "BSD-3-Clause"
+    ],
+    "type": "magento2-module",
+    "require": {
+        "php": "^7.2.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ReadyToGo\\ExpandDiscountCodeBox\\": ""
+        }
+    }
+}
